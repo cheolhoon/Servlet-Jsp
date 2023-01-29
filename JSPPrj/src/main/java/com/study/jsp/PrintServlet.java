@@ -26,7 +26,7 @@ public class PrintServlet extends HttpServlet{
 			cnt = Integer.parseInt(temp);
 		
 		for (int i =0; i<cnt; i++) {
-			out.println((i+1)+ ": 안녕 Servlet!!<br />");			
+			out.println((i+1)+ ": 안녕 Servlet!!<br />");	
 		}
 	}
 
